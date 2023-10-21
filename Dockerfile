@@ -9,4 +9,4 @@ RUN pip install ansible
 RUN pip install "openstacksdk>=1.0.0"
 RUN pip install docker
 RUN pip install docker-compose
-RUN apt-get -y install duplicity python-swiftclient python2
+RUN apt-get -y install duplicity python3-swiftclient python2
